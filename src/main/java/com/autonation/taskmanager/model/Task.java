@@ -46,7 +46,9 @@ public class Task {
 
     public String getAssignment() { return Assignment; };
 
-    public String getStatus() { return Status; };
+    public String getStatus() {
+        return Status;
+    };
 
     public ArrayList<Subtask> getSubTasks() {
         return SubTasks;

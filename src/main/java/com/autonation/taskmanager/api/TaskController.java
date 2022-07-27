@@ -18,6 +18,8 @@ public class TaskController {
     public TaskController(TaskService taskService) {this.taskService = taskService;}
 
     @PostMapping
-    public void insertTask(@RequestBody Task task) {taskService.insertTask(task);}
+    public void insertTask(@RequestBody Task task) {
+        taskService.insertTask(task);
+    }
 
 }
